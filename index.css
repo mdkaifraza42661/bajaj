@@ -1,0 +1,788 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar  */
+.banner {
+    background-image: url(banner.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    background-position: center center;
+    /* background-attachment: fixed; */
+}
+
+.navbar {
+    width: 99%;
+    height: 8vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftNavbar {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 8vh;
+    /* background-color: blue; */
+}
+
+
+
+select {
+    font-size: 2.0vh;
+
+    color: black;
+    background: none;
+    border: none;
+    font-weight: 600;
+}
+
+img {
+    width: 30%;
+    height: 5vh;
+
+}
+
+.RightNavbar {
+    width: 25%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.RightNavbar li {
+    list-style: none;
+    /* font-size: 0.8vw; */
+    font-weight: bold;
+}
+
+.RightChild li {
+    font-size: 0.9vw;
+}
+
+.leftChild {
+    border-left: 2px solid grey;
+}
+
+.far {
+    padding-left: 2vw;
+    font-size: 2vw;
+    color: rgb(94, 94, 248);
+}
+
+.icon {
+    padding-left: 1vw;
+    font-size: 2vw;
+    color: rgb(82, 82, 245);
+
+}
+
+.fas {
+    padding-left: 1vw;
+    font-size: 2vw;
+}
+
+.btn {
+    width: 83%;
+    height: 48vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    color: blue;
+    border: navajowhite;
+}
+
+button {
+    padding: 1.8vh 3vw;
+
+    font-size: 1.0vw;
+    color: white;
+    background-color: #258BD9;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* navbar end  */
+/* container  */
+.Section {
+    width: 100%;
+    height: 19vh;
+    background-image: url(top-band-bg.jpg);
+
+}
+
+.sectionContainer {
+    width: 60%;
+    height: 7vh;
+    /* background-color: yellow; */
+    border-left: 5px solid grey;
+    display: flex;
+    align-items: center;
+    margin-left: 6vw;
+    color: white;
+    font-size: 1.2vw;
+
+}
+
+.sectionContainer p {
+    margin-top: 3vh;
+}
+
+/* container end  */
+/* Images  */
+.Gallary {
+    width: 100%;
+    height: 50vh;
+    /* background-color: rgba(77, 19, 209, 0.5); */
+
+
+}
+
+.ChildGallary {
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -7vh;
+}
+
+.Image1 {
+    background-image: url(firstt.jpg);
+    width: 32.9vw;
+    height: 50vh;
+    background-color: rgba(77, 19, 209, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.Image2 {
+    background-image: url(second.jpg);
+    width: 32vw;
+    height: 50vh;
+    background-color: rgba(77, 19, 209, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.Image3 {
+    background-image: url(third.jpg);
+    width: 32vw;
+    height: 50vh;
+    background-color: rgba(77, 19, 209, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.logo {
+    text-align: center;
+}
+
+.ChildImage {
+    width: 30%;
+    height: 10vh;
+}
+
+#LogoPng {
+    width: 42%;
+    filter: initial(1);
+    height: 18vh;
+}
+
+#LogoPng1 {
+    width: 30%;
+    height: 7vh;
+}
+.Information{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    visibility:hidden ;
+}
+.Information:hover{
+    visibility: visible;
+}
+
+.InfomationPara {
+    font-size: 2vh;
+    color: white;
+    text-align: center;
+}
+
+#heading {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.info {
+    padding: 1.8vh 3vw;
+    font-size: 1.0vw;
+    color: blue;
+    background-color: #feffff;
+    font-weight: bold;
+    border: none;
+}
+
+/* images end */
+/* forth section */
+.ForthSection {
+    width: 100%;
+    height: 100vh;
+    /* background-color: khaki; */
+}
+
+.ForthChildSection {
+    width: 99%;
+    height: 100%;
+    /* background-color: lawngreen; */
+    margin: auto;
+    /* margin-top: 1vh; */
+
+}
+
+.FirstBlock {
+    width: 48%;
+    height: 30vh;
+    border: 1px solid gray;
+   
+    
+    /* background-color: red; */
+
+}
+
+.FirstBlock h1 {
+    /* color: white; */
+    margin: 3vh;
+    font-size: 1.2vw;
+}
+
+.FirstBlock p {
+    margin: 3vh;
+    font-size: 1vw;
+    /* color: white; */
+}
+
+.FirstBox {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.FirstBlock:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+#FB:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+.SecondBlock {
+    width: 48%;
+    height: 30vh;
+    border: 1px solid gray;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* background-color: red; */
+}
+.SecondBlock:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+#Sb:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+.SecondBlock h1 {
+    /* color: white; */
+    margin: 3vh;
+    font-size: 1.2vw;
+}
+
+.SecondBlock p {
+    margin: 3vh;
+    font-size: 1vw;
+    /* color: white; */
+}
+
+.Secondbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+.ThirdBlock {
+    width: 48%;
+    height: 30vh;
+    /* background-color: red; */
+    margin-top: 2vh;
+    border: 1px solid grey;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.ThirdBlock:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+.ThirdBlock h1 {
+    /* color: white; */
+    padding: 1vw;
+    font-size: 1.2vw;
+
+}
+
+.ThirdBlock p {
+    font-size: 1vw;
+    /* color: white; */
+    padding: 1vw;
+}
+
+#Cardbtn {
+
+    padding: 1.8vh 3vw;
+    margin: 2vh;
+    font-size: 1.0vw;
+    /* color: white; */
+    background-color:transparent;
+    font-weight: bold;
+    color: black;
+}
+.FooterContainer{
+    width: 100%;
+    /* height: 13vh; */
+    padding: 20px 0;
+    background-color: #006AD0;
+}
+.contactFooter{
+    width: 80%;
+    height: 100%;
+    /* background-color: darkred; */
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.Ready{
+    width: 20%;
+    /* height: 100%; */
+    /* line-height: 2.5vw; */
+  
+}
+
+.Ready h1{
+    font-size: 1.2vw;
+    font-weight: 100;
+    color: white;
+    /* margin-top: 1vh; */
+    
+}
+.Ready li{
+    list-style: none;
+    font-size: 1.4vw;
+}
+.PARRENT{
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 61%;
+    font-size: 1.5vw;
+}
+.ICON i{
+    width: 20%;
+}
+
+
+.Email{
+    width:42%;
+    /* height:100%; */
+    display: flex;
+    align-items: flex-end;
+    
+}
+EMAIL {
+    color: white;
+}
+.Email li{
+    list-style: none;
+    color: white;
+}
+.INFO h4 {
+    color: white;
+    font-size: 1.6vw;
+}
+
+.Follow{
+    width:20%;
+    height:100%;
+   
+    color: white;
+    
+}
+.Follow i{
+    margin-top: 1.2vh;
+}
+.Follow h1{
+    font-size: 1.2vw;
+    color: white;
+    /* display: flex;
+    align-items: center; */
+}
+.Social{
+    padding-top: 1.8vw;
+    margin-right: 1.2vw;
+}
+.icon i{
+    color: white;
+    padding: 0.5vh 0.1vw;
+}
+.Second-Footer{
+    width: 100%;
+    height: 50vh;
+}
+.childSecond-footer{
+    width: 80%;
+    height: 100%;
+    margin: 5vh auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.childSecond-footer li{
+    list-style: none;
+    padding-top: 1.5vh;
+    font-size: 1.0vw;
+
+}
+.childSecond-footer h3{
+    color:rgb(40, 49, 64);
+}
+
+.bajaj,.chetaK,.online,.Owner,.about,.invest{
+    width: 14%;
+}
+
+   
+   
+
+   
+    
+
+.invest h4{
+        /* margin: -2px 0vh; */
+        padding-bottom: 2vh;
+}
+.lastFooter{
+    width: 100%;
+    padding: 2vh;
+    background-color:#252525; 
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.childLastFooter{
+    width:70% ;
+   margin: auto;
+    /* background-color: brown; */
+   
+}
+.childLastFooter ul{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color: white;
+    list-style: none;
+    font-size: 1.1vw;
+ 
+}
+
+
+.RightLastFooter ul{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    list-style: none;
+}
+@media (max-width:500px){
+    .banner{
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+    img{
+        width: auto;
+        height: 6.6vh;
+    }
+    .RightChild{
+        display: none;
+        
+    }
+    .leftChild{
+        border: none;
+    }
+    .far{
+        font-size: 7vw;
+       
+    }
+       
+       .fas{
+           font-size: 7vw;
+           margin-left: 1vh;
+       } 
+    .navbar{
+        width:auto;
+        border-radius: 0%;
+        height: 11vh;
+    }
+    .leftNavbar{
+        width: 45%;
+        margin-left: 5vw;
+    }
+    select{
+        display: none;
+    }
+    .RightNavbar{
+        width: 33%;
+        line-height: 6vh;
+}
+    
+    .RightChild li{
+        font-size:2vw;
+    }
+    .btn{
+        width: 67%;
+        height: 76vh;
+    }
+    button{
+        padding: 1.8vh 10vw;
+        font-size: 3vw;
+    }
+.Image1 {
+    width:auto;
+}
+.Image2 {
+    width:auto;
+}
+.Image3 {
+    width:auto;
+}
+.Gallary{
+    height: auto;
+    
+}
+.sectionContainer{
+    width: 98%;
+}
+.sectionContainer p{
+    font-size: 3vw;
+}
+.FooterContainer{
+    height: 48vh;
+}
+.Ready{
+    width: 100%;
+   
+}
+.Ready h1{
+    font-size: 6vw;
+    margin-top: 4vh;
+}
+.Ready li{
+    font-size: 3.4vw;
+}
+.Email{
+    width: auto;
+    padding-top: 6vh;
+}
+.Follow{
+    width: 100%;
+    margin-left: 1.2vw;
+    margin-top: 7vh;
+
+    /* align-items: center; */
+}
+.Follow h4{
+ font-size:1vh;
+ color: white;
+}
+.Follow i {
+
+    padding: 1vh 1vw;
+    font-size: 3.2vh;
+}
+    .ChildGallary{
+        display: block;
+        top: 0vh;
+        
+    }
+    
+    .FirstBox{
+        display: block;
+       
+    }
+    .ForthSection {
+        height: 166vh;
+    }
+    .FirstBlock{
+        width: 100%;
+        border: none;
+    }
+.ThirdBlock{
+    width: 100%;
+    border: none;
+} 
+.ThirdBlock h1{
+      font-size: 5vw;
+    margin-left: 15px;
+    font-weight: 100;
+}
+.ThirdBlock p{
+  
+    font-size: 3vw;
+    margin-left: 3vw;
+}
+
+.FirstBlock h1{
+    font-size: 5vw;
+    font-weight: 100;
+}
+.FirstBlock p{
+    font-size: 3vw;
+}
+
+.SecondBlock{
+       width: 100%;
+        border: none;
+}
+.Secondbox{
+    display: block;
+}
+.SecondBlock h1{
+    font-size: 5vw;
+    font-weight: 100;
+}
+.SecondBlock p{
+    font-size: 3vw;
+}
+.contactFooter{
+    flex-direction: column;
+}
+#Cardbtn{
+    padding:1.8vh 11vw ;
+    font-size: 3vw;
+    color: rgb(95, 95, 247);
+}
+.childSecond-footer{
+    display: block;
+    height: auto;
+    width: 92%;
+}
+.childSecond-footer li{
+    display: none;
+}
+.Second-Footer{
+    height: auto;
+}
+.bajaj{
+    width: auto;
+    border-top: 2px solid gray;
+    border-bottom:2px solid gray ;
+    padding: 3vh 0vh 3vh 0vh;
+    font-weight: 100;
+    
+}
+.bajaj h3{
+    font-size: 3vw;
+    font-weight: 100;
+}
+.chetaK{
+    width: auto;
+}
+.chetaK h3 {
+    width: auto;
+    border-bottom:2px solid gray ;
+    padding: 3vh 0vh 3vh 0vh;
+    font-weight: 100;
+    font-size: 3vw;
+}
+.online{
+    width: auto;
+}
+.online h3{
+    border-bottom:2px solid gray ;
+    padding: 3vh 0vh 2vh 0vh;
+    font-weight: 100;
+    font-size: 3vw;
+}
+.Owner{
+    width: auto;
+    
+}
+.Owner h3{
+    border-bottom:2px solid gray ;
+    padding: 3vh 0vh 3vh 0vh;
+    font-weight: 100;
+    font-size: 3vw;
+}
+.about{
+    width: auto;
+}
+.about h3{
+    
+    border-bottom:2px solid gray ;
+    padding: 3vh 0vh 3vh 0vh;
+    font-weight: 100;
+    font-size: 3vw;
+}
+.invest {
+    width: auto;
+
+}
+.invest h4{
+    border-bottom:2px solid gray ;
+    padding: 3vh 0vh 3vh 0vh;
+    font-weight: 100;
+    margin: auto;
+}
+.lastFooter{
+    flex-direction: column;
+}
+.childLastFooter ul{
+    font-size: 1.2vw;
+}
+.childLastFooter{
+    width: auto;
+    /* margin: 0%; */
+}
+
+    .Section{
+        height: 12vh;
+    }
+    .childLastFooter li{
+        font-size: 1.8vw;
+        margin: 1vw;
+    }
+    .RightLastFooter li{
+        font-size: 2vw;
+    }
+}
