@@ -56,7 +56,7 @@ img {
 
 .RightNavbar {
     width: 25%;
-   
+    color: blue;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -65,7 +65,7 @@ img {
 
 .RightNavbar li {
     list-style: none;
-    
+    color: blue;
     font-weight: bold;
 }
 
@@ -79,7 +79,7 @@ img {
 
 .far {
        font-size: 2.5vw;
-       color: white;
+      
    };
 
 
@@ -374,7 +374,7 @@ button {
     background-color: #006AD0;
 }
 .contactFooter{
-    width: 80%;
+    width: 87%;
     height: 100%;
     /* background-color: darkred; */
     margin: auto;
@@ -384,6 +384,7 @@ button {
 }
 .Ready{
     width: 20%;
+    padding-bottom: 1vh;
     /* height: 100%; */
     /* line-height: 2.5vw; */
   
@@ -393,7 +394,7 @@ button {
     font-size: 1.2vw;
     
     color: white;
-    /* margin-top: 1vh; */
+    margin-top: 1vh;
     
 }
 .Ready li{
@@ -411,7 +412,8 @@ button {
 .ICON i{
     width: 20%;
     margin-right: 2vh;
-    border-radius:50%;
+  
+    padding-top: 1.4vh;
 }
 
 
@@ -420,13 +422,13 @@ button {
     /* height:100%; */
     display: flex;
     align-items: flex-end;
+    padding-bottom: 1vh;
     
 }
-EMAIL {
-    color: white;
-}
+
 EMAIL i{
     margin-left: 1vw;
+    color: white;
 }
 .Email li{
     list-style: none;
@@ -434,7 +436,7 @@ EMAIL i{
 }
 .INFO h5 {
     color: white;
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 .INFO{
     padding-left: 1vw;
@@ -458,9 +460,10 @@ EMAIL i{
    
 }
 .Social{
-    padding-top: 1.8vw;
+    padding-top: 2.5vw;
     margin-right: 1.2vw;
 }
+
 .Social i{
     font-size: 1.5vw;
     padding-left: 1vw;
@@ -590,8 +593,11 @@ EMAIL i{
     }
     .btn{
         width: 67%;
-        height: 76vh;
-    }
+      height: 76vh;
+     padding-bottom: 4vh;
+     }
+        
+    
     button{
         padding: 1.8vh 10vw;
         font-size: 3vw;
@@ -615,9 +621,7 @@ EMAIL i{
 .sectionContainer p{
     font-size: 3vw;
 }
-.FooterContainer{
-    height: 48vh;
-}
+
 .Ready{
     width: 100%;
    
@@ -632,6 +636,7 @@ EMAIL i{
 .Email{
     width: auto;
     padding-top: 6vh;
+    color: white;
 }
 .Follow{
     width: 100%;
